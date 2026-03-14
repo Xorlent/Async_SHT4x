@@ -18,7 +18,7 @@ Click [here](https://sensirion.com/products/catalog/SEK-SHT40/) to learn more ab
 |[SHT45](https://sensirion.com/products/catalog/SHT45/)| **0x44**, 0x45|
 
 ## Installation of the library
-__If installed, be sure to remove the `Sensirion I2C SHT4x` library before compiling a sketch using this enhanced library__  
+_Be sure to remove the `Sensirion I2C SHT4x` library before proceeding_  
   
 This library can be installed using the Arduino Library manager:
 Start the [Arduino IDE](http://www.arduino.cc/en/main/software) and open
