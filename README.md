@@ -1,7 +1,7 @@
 # Asynchronous Sensirion I²C SHT4X Arduino Library
 
 This is an asynchronous Sensirion SHT4X library for Arduino based on Arduino_i2c-sht4x 1.1.2.
-This library allows communication with a sensor of the SHT4X family over I²C.
+This library is a drop-in replacement for Sensirion I2C SHT4x and allows communication with a sensor of the SHT4X family over I²C.
 
 <img src="images/SHT4x.png" width="300px">
 
@@ -18,14 +18,14 @@ Click [here](https://sensirion.com/products/catalog/SEK-SHT40/) to learn more ab
 |[SHT45](https://sensirion.com/products/catalog/SHT45/)| **0x44**, 0x45|
 
 ## Installation of the library
-
+__If instslled, be sure to remove the `Sensirion I2C SHT4x` library before compiling a sketch using this enhanced library__  
 This library can be installed using the Arduino Library manager:
 Start the [Arduino IDE](http://www.arduino.cc/en/main/software) and open
 the Library Manager via
 
 `Sketch` ➔ `Include Library` ➔ `Manage Libraries...`
 
-Search for the `Async_SHT4x` in the `Filter
+Search for the `Async SHT4x` in the `Filter
 your search...` field and install it by clicking the `install` button.
 
 If you cannot find it in the library manager, download the latest release as .zip file
